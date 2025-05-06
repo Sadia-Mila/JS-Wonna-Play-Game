@@ -1,0 +1,88 @@
+
+/* Common Css Start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width:880px;
+    margin:0 auto;
+}
+/* Common Css End */
+/* Screen One Css Start */
+.screenOne, .screenTwo, .screenThree, .screenFour{
+    padding:80px;
+    background: #dddd;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.screenTwo, .screenThree,.screenFour {
+    display:none;
+}
+.headingScreenOne, .headingScreenTwo, .headingScreenThree, .headingScreenFour{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:48px;
+    color:black;
+    text-align: center;
+}
+
+.screenFourChance{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:16px;
+    color:black;
+    text-align: center;
+}
+
+.playerOneName, .playerTwoValue, .playerThreeName, .playerTwoNumber{
+    background: white;
+    width:80%;
+    padding: 18px 26px;
+    display:inline;
+    border:none;
+    border-radius: 20px;
+    margin-left:6%;
+    margin-top:20px;
+    margin-bottom: 30px;
+    border: 1px silid #D9D9D9;
+}
+
+.playerOneName::placeholder, .playerTwoName::placeholder, .playerThreeName::placeholder, .playerTwoNumber::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    color:#D9D9D9;
+}
+.startGameBtn, .letsPlayBtn, .screenThreeStartGameBtn, .guessBtn{
+    padding:12px 36px;
+    background: #7041D3;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    border:none;
+    border-radius: 40px;
+    color:white;
+    margin-left: 36%; 
+    margin-bottom: 20px;
+}
+.screenOneError, .screenTwoError, .screenThreeError, .screenFourError{
+    text-align: center;
+    width:70%;
+    padding:10px 0px;
+    background:#CC3030;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    color:#fff;
+    margin:0 auto;
+    display:none;
+}
+
+/* Screen One Css End */
